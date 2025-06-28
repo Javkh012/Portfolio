@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Javokhir | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="shortcut icon" href="./get.ico" type="image/x-icon">
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white font-sans">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-white/5 shadow-md">
+    <nav class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <div class="text-2xl font-bold text-yellow-400 animate-pulse">Javokhir</div>
+      <ul class="hidden md:flex space-x-6 font-semibold">
+        <li><a href="#home" class="hover:text-yellow-400 transition">Bosh sahifa</a></li>
+        <li><a href="#about" class="hover:text-yellow-400 transition">Men haqimda</a></li>
+        <li><a href="#skills" class="hover:text-yellow-400 transition">Ko‘nikmalar</a></li>
+        <li><a href="#projects" class="hover:text-yellow-400 transition">Loyihalar</a></li>
+        <li><a href="#testimonials" class="hover:text-yellow-400 transition">Fikrlar</a></li>
+        <li><a href="#contact" class="hover:text-yellow-400 transition">Bog‘lanish</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center px-4 pt-24">
+    <h1 class="text-5xl md:text-7xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-orange-500 animate-fade-in-down">
+      Salom, men Javokhir!
+    </h1>
+    <p class="mt-6 text-lg md:text-xl text-gray-300 max-w-xl">
+      Web dasturchi va ijodkor — Tailwind CSS, HTML, JavaScript asosida kreativ saytlar yarataman.
+    </p>
+    <a href="#about" class="mt-8 inline-block px-8 py-3 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold rounded-full shadow-lg transition hover:scale-105">
+      Ko‘proq bilish
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 px-6 bg-gray-900">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6 text-yellow-400">Men haqimda</h2>
+      <p class="text-gray-300 text-lg leading-relaxed">
+        Men o‘z ustida ishlaydigan, yangilikka ochiq va o‘rganishga chanqoq dasturchiman. Har bir loyihamda kreativlik, soddalik va samaradorlikka katta e’tibor beraman. 
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 px-6 bg-gradient-to-r from-gray-800 to-gray-900">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-12 text-yellow-400">Men biladigan texnologiyalar</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white/10 p-6 rounded-xl backdrop-blur-md border border-yellow-500 shadow-xl hover:scale-105 transition duration-300">
+          <h3 class="text-2xl font-bold text-yellow-400 mb-3">HTML</h3>
+          <p class="text-gray-300">Saytning tuzilmasini yarataman, semantik va toza kod bilan ishlayman.</p>
+        </div>
+        <div class="bg-white/10 p-6 rounded-xl backdrop-blur-md border border-blue-400 shadow-xl hover:scale-105 transition duration-300">
+          <h3 class="text-2xl font-bold text-blue-400 mb-3">CSS</h3>
+          <p class="text-gray-300">Saytlarga dizayn beraman, Tailwind CSS yordamida zamonaviy interfeyslar yarataman.</p>
+        </div>
+        <div class="bg-white/10 p-6 rounded-xl backdrop-blur-md border border-yellow-300 shadow-xl hover:scale-105 transition duration-300">
+          <h3 class="text-2xl font-bold text-yellow-300 mb-3">JavaScript</h3>
+          <p class="text-gray-300">Saytga interaktivlik qo‘shaman — foydalanuvchi harakatlariga javob beradigan funksiyalar yarataman.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 px-6 bg-gray-900">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-12 text-yellow-400">Loyihalarim</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white/10 p-6 rounded-xl backdrop-blur-md hover:scale-105 transform transition duration-300">
+          <h3 class="text-xl font-semibold text-yellow-400 mb-2">Portfolio</h3>
+          <p class="text-gray-300">Tailwind CSS bilan yaratilgan portfolio sahifa.</p>
+        </div>
+        <div class="bg-white/10 p-6 rounded-xl backdrop-blur-md hover:scale-105 transform transition duration-300">
+          <h3 class="text-xl font-semibold text-yellow-400 mb-2">Blog Sahifasi</h3>
+          <p class="text-gray-300">Mobilga mos, toza dizaynli blog loyihasi.</p>
+        </div>
+        <div class="bg-white/10 p-6 rounded-xl backdrop-blur-md hover:scale-105 transform transition duration-300">
+          <h3 class="text-xl font-semibold text-yellow-400 mb-2">Landing Page</h3>
+          <p class="text-gray-300">Marketing uchun animatsiyali landingi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-20 px-6 bg-gradient-to-r from-gray-900 to-gray-800">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-12 text-yellow-400">Mijozlar fikri</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white/10 p-6 rounded-xl backdrop-blur-md border border-yellow-500 shadow-lg hover:scale-105 transition">
+          <p class="text-gray-300 italic">"Javokhir bilan ishlash juda qulay bo‘ldi. Portfolio dizayni juda zamonaviy va tez ishlaydi!"</p>
+          <div class="mt-4 text-yellow-400 font-bold">— Dilshod, mijoz</div>
+        </div>
+        <div class="bg-white/10 p-6 rounded-xl backdrop-blur-md border border-blue-400 shadow-lg hover:scale-105 transition">
+          <p class="text-gray-300 italic">"Saytim aynan xohlaganimdek chiqdi. Tailwind CSS orqali chiroyli dizayn yaratildi."</p>
+          <div class="mt-4 text-blue-400 font-bold">— Ziyoda, mijoz</div>
+        </div>
+        <div class="bg-white/10 p-6 rounded-xl backdrop-blur-md border border-green-400 shadow-lg hover:scale-105 transition">
+          <p class="text-gray-300 italic">"Har bir detalga e’tibor qaratilgan. Juda ham professional yondashuv uchun rahmat."</p>
+          <div class="mt-4 text-green-400 font-bold">— Behruz, mijoz</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-6 bg-gray-800">
+    <div class="max-w-xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6 text-yellow-400">Bog‘lanish</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Ismingiz" class="w-full px-4 py-3 rounded bg-gray-900 text-white focus:ring-2 ring-yellow-400" />
+        <input type="email" placeholder="Emailingiz" class="w-full px-4 py-3 rounded bg-gray-900 text-white focus:ring-2 ring-yellow-400" />
+        <textarea rows="5" placeholder="Xabaringiz..." class="w-full px-4 py-3 rounded bg-gray-900 text-white focus:ring-2 ring-yellow-400"></textarea>
+        <button class="bg-yellow-500 hover:bg-yellow-600 px-6 py-3 rounded-full font-bold text-black transition hover:scale-105">
+          Yuborish
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-gray-400 bg-gray-950">
+    © 2025 Javokhir | Portfolio sayti
+  </footer>
+
+</body>
+</html>
